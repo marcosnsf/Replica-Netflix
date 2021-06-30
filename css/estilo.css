@@ -104,7 +104,7 @@ a:hover{
 .corpo-gerencia{
     display: flex;
     flex-wrap: wrap;
-    justify-content: c;
+    justify-content: center;
     width: 30%;
     margin:60px auto;
 }
