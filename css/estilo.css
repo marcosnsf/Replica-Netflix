@@ -53,13 +53,20 @@ body{
     clear:none;
     float: left;
     position: relative;
+    transition:0.5s all;
     
 }
+
 .icone{
     float: left;
     border-radius: 3px;
     margin: 15px;
     clear: left;
+    
+}
+.icone:hover{
+    border: white solid 4px;
+    opacity:1 ;
 }
 .icone,#link-gerencia{
     cursor: pointer;
@@ -75,10 +82,8 @@ body{
    display: block;
    text-align: center;
    font-size: 18px;
-   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-  
-   
-  
+   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;  
+   text-transform: uppercase;
 }
 .limpar{
     clear: both;
@@ -98,7 +103,6 @@ a:hover{
 #link-icone a:link, a:visited{
     text-decoration: none;
     color: #fff;
-  
 }
 
 
@@ -118,8 +122,16 @@ a:hover{
     font-size: 18px;
     width: 80%;
     margin: 0 auto;
+    transition: 1s all;
+    
+    
 }
-
+#link-gerencia:hover{
+    transform: scale(1.1);
+    transition-duration:1s;
+    border-radius: 12px;
+    
+}
 .marca-dagua{
    opacity: 0.3;
    display: block;
