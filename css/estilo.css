@@ -15,7 +15,10 @@ body{
 }
 .imagem-topo{
     margin: 0px 0px 0px 45px;
-    position: relative; 
+    position: absolute; 
+}
+.imagem-topo:hover{
+    cursor: pointer;
 }
 .conteudo{
     width: 70%;
