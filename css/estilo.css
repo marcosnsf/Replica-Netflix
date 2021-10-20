@@ -9,62 +9,51 @@ body{
     width: 100%;
 }
 .topo{
-    width: 100%;
-    margin: 0 auto;
- 
-}
-.imagem-topo{
-    margin: 0px 0px 0px 45px;
     position: absolute; 
+    left: 40px;
+}
+.imagem-topo img{
+    width: 116px;
+    position: absolute; 
+    display: inline-block;
 }
 .imagem-topo:hover{
     cursor: pointer;
 }
 .conteudo{
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 50px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
-.centralizar{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin: 0 auto;
-}
+
 #titulo{
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     color: #fff;
-    font-size:3.5vw;
+    font-size:3.0vw;
     line-height: 3px ;
     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top:100px;
     text-align: center;
-    margin-top:80px;
-    margin-bottom: 50px;
-    
 }
 .corpo-icone{
+    display: flex;
     position: relative;
-    border-radius: 10px;
-    margin-top: 50px; 
-    margin-left:45px;  
-}
-.estrutura-icone{
-    display: block;
-    clear:none;
-    float: left;
-    position: relative;
-    transition:0.5s all;
-    
+    top: 40px; transition:0.5s all ;
 }
 
-.icone{
-    float: left;
+
+.icone{ 
+    display: block;
     border-radius: 3px;
     margin: 15px;
-    clear: left;
     
 }
 .icone:hover{
