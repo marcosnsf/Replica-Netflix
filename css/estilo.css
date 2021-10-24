@@ -107,21 +107,22 @@ a:hover{
 
 /*Corpo gerencia*/
 .corpo-gerencia{
-    display: block;
+    display:flex;
+    flex-wrap: wrap-reverse;
     width: 100%;
     position: relative;
     top:100px;
 }
 
 #link-gerencia{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     border: #fff solid 1px;
     text-align: center;
     letter-spacing: 2px;
     font-size: 16px; 
-    padding: 8px 20px;   
-    width: 12%;
+    padding: 12px 20px;   
+    width: 16%;
     margin: 0 auto;
     transition: 1s all;
     font-weight: 700;
@@ -132,7 +133,10 @@ a:hover{
     
 }
 .marca-dagua{
-    position: fixed;
+    display: flex;
+    width: 40%;
+    position: relative;
+    top: 200px;
     left: 10px;
     bottom: 10px;
     opacity: 0.3;
